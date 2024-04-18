@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    * {
+        @apply font-ravi;
+    }
+    .section-container{
+        @apply flex  px-[160px]  w-full h-full wsm:px-10 wmd:px-12 wlg:px-14;
+    }
+    .text{
+        @apply text-lg text-[#9FACA3] ;
+    }
+    .navbar-container{
+        @apply flex justify-end  pt-6 transition-all delay-75 ease-linear ;
+    }
+    .navbar{
+        @apply sticky top-0 bg-main  items-center px-[160px] wsm:px-10 wsm:text-sm py-5 z-50 transition-all delay-75 ease-linear;
+    }
+    .active-navbar{
+        @apply   backdrop-blur-sm shadow-lg shadow-[#00000060];
+    }
+    .navlink{
+        @apply font-bold wsm:text-sm wsm:px-2 text-black hover:text-white transition-all delay-75 ease-linear px-8 ;
+    }
+    .register-button{
+        @apply bg-[#021739] text-white shadow-xl px-12 wsm:px-6 py-3 rounded-full ;
+    }
+    .register-text-button{
+        @apply transition-all delay-75 ease-linear   ;
+    }
+    .hero{
+        @apply  bg-main flex pt-[250px] px-[160px] wsm:px-10 wsm:py-20 wsm:flex-col-reverse wsm:items-center relative top-[-112px] wsm:top-0;
+    }
+    .hero-title{
+        @apply text-5xl wsm:text-4xl text-black my-9 wsm:my-4 font-bold leading-[80px];
+    }
+    .hero-image{
+        @apply flex justify-center  wsm:left-0 wsm:top-0;
+    }
+    .hero-bg{
+        @apply absolute inset-0 top-[-112px] bg-[url('/public/assets/images/hero.png')] bg-cover -scale-x-100 bg-no-repeat; /* Cover the entire area */
+    }
+    .aboutus-title{
+        @apply text-[#031837] wsm:text-4xl font-bold text-[55px]  py-8 leading-[65px] ;
+    }
+    .download-section{
+        @apply bg-[url('/public/assets/images/download.png')] w-full bg-cover bg-no-repeat p-[auto];
+    }
+    .download-section-container{
+        @apply flex flex-col items-center justify-between absolute top-0 left-0 w-full h-full pt-20 pb-14 wsm:p-10;
+    }
+    .download-section-title{
+        @apply text-white wsm:text-lg text-4xl text-center font-bold leading-[55px] wsm:leading-normal  ;
+    }
+    .button-50{
+        @apply wsm:!my-5;
+    }
+    .carousel__next , .carousel__prev {
+        @apply wsm:!p-2 ;
+    }
+    /* #FF9123 */
+    /* #9FACA3 */
+}
