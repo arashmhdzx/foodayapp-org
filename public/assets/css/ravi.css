@@ -2,7 +2,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: 100;
-    src: url('/public/assets/fonts/ravi/Ravi FA-EN 01 Thin.ttf') format('truetype');
+    src: url('./ravi/Ravi FA-EN 01 Thin.ttf') format('truetype');
     font-display: block;
 
 }
@@ -11,7 +11,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: 300;
-    src: url('/public/assets/fonts/ravi/ FA-EN 02 Light.ttf') format('truetype');
+    src: url('./ravi/ FA-EN 02 Light.ttf') format('truetype');
     font-display: block;
 
 }
@@ -20,7 +20,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: normal;
-    src: url('/public/assets/fonts/ravi/Ravi FA-EN 03 Regular.ttf') format('truetype');
+    src: url('./ravi/Ravi FA-EN 03 Regular.ttf') format('truetype');
     font-display: block;
 
 }
@@ -29,7 +29,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: 500;
-    src: url('/public/assets/fonts/ravi/Ravi FA-EN 04 Medium.ttf') format('truetype');
+    src: url('./ravi/Ravi FA-EN 04 Medium.ttf') format('truetype');
     font-display: block;
 
 }
@@ -38,7 +38,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: 600;
-    src: url('/public/assets/fonts/ravi/Ravi FA-EN 05 SemiBold.ttf') format('truetype');
+    src: url('./ravi/Ravi FA-EN 05 SemiBold.ttf') format('truetype');
     font-display: block;
 
 }
@@ -48,7 +48,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: bold;
-    src: url('/public/assets/fonts/ravi/Ravi FA-EN 06 Bold.ttf') format('truetype');
+    src: url('./ravi/Ravi FA-EN 06 Bold.ttf') format('truetype');
     font-display: block;
 
 }
@@ -57,7 +57,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: 800;
-    src: url('/public/assets/fonts/ravi/Ravi FA-EN 07 ExtraBold.ttf') format('truetype');
+    src: url('./ravi/Ravi FA-EN 07 ExtraBold.ttf') format('truetype');
     font-display: block;
 
 }
@@ -66,7 +66,7 @@
     font-family: "ravi";
     font-style: normal;
     font-weight: 900;
-    src: url('/public/assets/fonts/ravi/Ravi FA-EN 08 Black.ttf') format('truetype');
+    src: url('./ravi/Ravi FA-EN 08 Black.ttf') format('truetype');
     font-display: block;
 
 }
