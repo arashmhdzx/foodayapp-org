@@ -7,7 +7,7 @@ import Comments from './components/layouts/comments/comments.vue'
 import Footer from './components/layouts/footer/footer.vue'
 import AppShots from './components/layouts/appShots/appShots.vue'
 
-useHead({   
+useHead({
     title: 'فودی | اپلیکیشن سفارش غذا'
 });
 </script>
@@ -22,3 +22,9 @@ useHead({
     <AppShots />
     <Footer />
 </template>
+<style>
+@import url("~/public/assets/css/fontAwesome.min.css");
+@import url("~/public/assets/css/index.css");
+@import url("~/public/assets/css/main.css");
+@import url("~/public/assets/css/ravi.css");
+</style>
